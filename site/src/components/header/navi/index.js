@@ -70,20 +70,20 @@ export default function Navi() {
         <MenuItem>Home</MenuItem>
       </Link>
 
-      <MenuLabel>Blockchain</MenuLabel>
+      {/* <MenuLabel>Blockchain</MenuLabel> */}
       {menusBlockchain.map((item, idx) => (
         <MenuLinkItem key={idx} item={item} closeMobileMenu={closeMobileMenu} />
       ))}
 
-      <MenuLabel>Assets</MenuLabel>
+      {/* <MenuLabel>Assets</MenuLabel>
       {menusAssets.map((item, idx) => (
         <MenuLinkItem key={idx} item={item} closeMobileMenu={closeMobileMenu} />
-      ))}
+      ))} */}
 
-      <MenuLabel>Destroyed</MenuLabel>
+      {/* <MenuLabel>Destroyed</MenuLabel>
       {menusAssetsDestroyed.map((item, idx) => (
         <MenuLinkItem key={idx} item={item} closeMobileMenu={closeMobileMenu} />
-      ))}
+      ))} */}
     </MenuWrapper>
   );
 }
